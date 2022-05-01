@@ -6,7 +6,7 @@ let cursos = [
     new Curso("Pruebas automatizadas", 25, 50, false, 2020),
     new Curso("Principios de diseño y arquitectura", 30, 75, true, 2020),
 ];
-export const ap = new Aprendiz("Andrés", "Valle", "avatar.png", 29, NivelEducativo.POSGRADO, cursos);
+export const ap = new Aprendiz("Andrés", "Valle", "./img/avatar.png", 29, NivelEducativo.POSGRADO, cursos);
 console.log(ap.cursos);
 let aprendizTable = document.getElementById("aprendiz");
 let estadisticasTable = document.getElementById("estadisticas");
